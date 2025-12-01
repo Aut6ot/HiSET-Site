@@ -215,15 +215,17 @@ p{
 }
 
 .eighties-title{
-    
+    border: 2px solid lime;
 }
 
 .nineties{
     color: cyan;
+    font-family: "Alien Robot";
+    font-size: 2rem;
+    text-shadow: 0 0 10px skyblue;
 }
 
 .nineties-title{
-    font-family: "Alient Robot";
     background-image: url(images/iss-genx.png);
     border: 4px solid cyan;
     border-radius: 5px;
@@ -241,6 +243,10 @@ p{
 .tens{
     font-family: "Madenz";
     color:blueviolet;
+}
+
+.tens-title{
+    border: 4px solid magenta;
 }
 
 .twenties{
@@ -501,4 +507,134 @@ p{
 
 #updates-table-80s table tr {
     border-bottom: 1px solid lime;
+}
+
+/* 1990s GenX Soft Club + Tech Theme */
+.mission-container-90s{
+    width: 50vw;
+    min-height: 30vh;
+    border: 2px solid cyan;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0px;
+}
+
+.mission-title-90s{
+    background: linear-gradient(90deg,rgba(155, 222, 202, 1) 0%, rgba(39, 72, 79, 1) 55%, rgba(0, 0, 0, 1) 100%);
+    text-align: right;
+    padding-right: 2rem;
+    border-bottom: 2px solid cyan;
+}
+
+.mission-items-90s{
+    background-image: url(images/90s/90s-tech-bkg.png);
+    background-position: center;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 2rem;
+    padding: 1rem;
+    font-family: 'Cascadia Mono';
+    color: cyan;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.mission-col-1-90s{
+    object-fit: contain;
+    flex: 1;
+}
+
+.mission-col-2-90s{
+    flex: 2;
+}
+
+.mission-img-90s{
+    max-width: 15vw;
+    border: 2px solid cyan;
+}
+
+.window{
+    margin: 5vh 0px;
+    width: 80%;
+}
+
+/* 2000s Frutiger Aero Design */
+.y2k-reflecting-title{
+    margin: 25vh 0px;
+}
+
+.y2k-section-title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.y2k-section-title-reflection{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    transform: rotateX(180deg) translateY(-2px);
+    mask-image: linear-gradient(transparent 50%, white 90%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.window-body{
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://64.media.tumblr.com/092193b8d83e87b4d4d637ab3ac98b5c/318e83a2c264d399-fd/s2048x3072/a2024072972e05a2947afa3ecdaeb9fa6f38846d.pnj) !important;
+    background-position: center !important;
+    background-size:cover !important;
+}
+
+.y2k-mission-img{
+    max-width: 50%;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, .3) 100%);
+    /* background-blend-mode: blur(100px); */
+    padding: 1rem;
+}
+
+.y2k-col-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+    justify-content: start;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.y2k-mission-title{
+    text-shadow: 2px 2px 2px rgba(77, 102, 247, 0.829);
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+.y2k-col-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.y2k-mission-desc{
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 3px;
+    width: 100%;
+    padding: 0px 1rem;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, .3) 100%);
 }
