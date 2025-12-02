@@ -179,18 +179,28 @@ p{
     color: #e03d4d;
 }
 
+.fifties h2{
+    margin: 10vh 0px;
+}
+
 .fifties-title{
-    font-family: 'Century Gothic';
-    background-image: url(images/fifties-cover-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: left;
+    margin-bottom: 10vh;
 }
 
 #fifties-timeline-img{
     width: 40vw;
-    margin: 10vh 0px;
+    margin: 5vh 0px;
+}
+
+.fifties-text{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 7vh 0px;
+    line-height: 3vh;
 }
 
 .sixties{
@@ -246,7 +256,8 @@ p{
 }
 
 .tens-title{
-    border: 4px solid magenta;
+    border: 1px solid magenta;
+    border-radius: 5px;
 }
 
 .twenties{
@@ -637,4 +648,150 @@ p{
     padding: 0px 1rem;
     backdrop-filter: blur(5px);
     background: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, .3) 100%);
+}
+
+/* 2010s Brutalist Acidwave */
+
+.tens-mission-container{
+    display: flex;
+    flex-direction: column;
+    border: 4px double violet;
+    margin: 10vh 0px;
+    width: 55vw;
+    background-image: url(images/2010s-mission-bkg.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.tens-mission-title{
+    display: flex;
+    flex-direction: row;
+    color: hotpink;
+    text-shadow: 0 0 10px rgba(98, 0, 255, 0.849);
+    border-bottom: 4px double violet;
+    padding: 0px 1rem;
+}
+
+.tens-mission-title-foreign{
+    font-family: 'MS Gothic';
+    text-shadow: 0 0 10px magenta;
+    /* color: rgba(0, 247, 255, 0.88); */
+    color: rgb(7, 1, 61);
+}
+
+.tens-mission-title-eng{
+    font-family: 'Trebuchet MS';
+}
+
+.tens-mission-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.tens-mission-left-col{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    object-fit: contain;
+}
+
+.tens-mission-right-col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #50264e;
+    padding: 0px 1rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(2px);
+}
+
+.tens-mission-desc{
+    color: hotpink;
+    text-align: justify;
+}
+
+.tens-mission-img{
+    max-width: 35vw;
+    margin: 1rem;
+    border: 1px solid #50264e;
+}
+
+.tens-section-header{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(109, 31, 104, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    margin: 20vh 0px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.tens-section-header-text{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Tahoma';
+    color: rgba(255, 0, 157, 0.75);
+}
+
+#tens-nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tens-nav{
+    text-align: left;
+}
+
+.tens-nav li{
+    color: hotpink;
+    font-size: 1.25rem;
+}
+
+
+.tens-nav li a{
+    font-size: 1.25rem;
+    color: hotpink;
+    text-decoration: none;
+}
+
+.tens-nav li:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.tens-nav li a:visited{
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* 2020s */
+.twenties-mission-container{
+    background-image: url(https://64.media.tumblr.com/6bde6dff2caf7853e674df3e8e1b7227/17b6ebe9407e80f6-1b/s500x750/cde3a28d84d2d93590447fb233e5d5e3a7e7735b.pnj);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 7px double white;
+    font-family: 'Segoe UI';
+    padding: 2rem;
+    width: 40vw;
+    gap: 2rem;
+}
+
+.twenties-mission-container h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: rgba(62, 68, 77, 0.726);
+}
+
+.twenties-mission-container img{
+    border: 1px solid white;
+    width: 30vw;
+}
+
+.twenties-mission-desc{
+    color: rgb(50, 56, 68);
+    width: 30vw;
+    text-align: justify;
 }
