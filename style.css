@@ -795,3 +795,13 @@ p{
     width: 30vw;
     text-align: justify;
 }
+
+/* Sources */
+
+.eighties-src{
+    color: green;
+}
+
+.eighties-src:visited{
+    color: yellow;
+}
