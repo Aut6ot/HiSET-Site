@@ -251,7 +251,7 @@ p{
 }
 
 .tens{
-    font-family: "Madenz";
+    font-family: "Madenz", sans-serif;
     color:blueviolet;
 }
 
@@ -261,12 +261,13 @@ p{
 }
 
 .twenties{
-    font-family: "OCR-A";
-    color: hotpink;
+    font-family: "Garamond", serif;
+    font-weight: 200;
+    color: white;
 }
 
 .future{
-    font-family: "Upcharge";
+    font-family: "Upcharge", sans-serif;
     color: ghostwhite;
 }
 
@@ -658,7 +659,7 @@ p{
     border: 4px double violet;
     margin: 10vh 0px;
     width: 55vw;
-    background-image: url(images/2010s-mission-bkg.png);
+    background-image: url(https://64.media.tumblr.com/3dd041a53e46dd66b36aa7b64e8abde7/f5e5e112b2624166-09/s2048x3072/af23ff09658bde7528334d61e54a30a59877c254.pnj);
     background-position: center;
     background-size: contain;
 }
@@ -765,7 +766,7 @@ p{
 
 /* 2020s */
 .twenties-mission-container{
-    background-image: url(https://64.media.tumblr.com/6bde6dff2caf7853e674df3e8e1b7227/17b6ebe9407e80f6-1b/s500x750/cde3a28d84d2d93590447fb233e5d5e3a7e7735b.pnj);
+    background-image: url(https://64.media.tumblr.com/561200f84eb6b1af14b2123b01ebe91b/7b3acbb1a1f26fc4-a9/s1280x1920/ea174f293ff08867bb8431db9accc09e26f606e9.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -775,25 +776,77 @@ p{
     border: 7px double white;
     font-family: 'Segoe UI';
     padding: 2rem;
+    margin: 10vh 0px;
     width: 40vw;
     gap: 2rem;
 }
 
+.twenties-upcoming-container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 7px double white;
+    padding: 2rem;
+    margin: 10vh 0px;
+    width: 40vw;
+    gap: 2rem;
+}
+
+.twenties-upcoming-header{
+    font-weight: 200;
+    color: white;
+    font-family: 'Garamond';
+}
+
+.twenties-upcoming-h1{
+    font-size: 64px;
+}
+
+.twenties-upcoming-h2{
+    font-size: 32px;
+}
+
+.twenties-upcoming-h3{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
 .twenties-mission-container h1{
     font-size: 64px;
-    font-weight: 900;
-    color: rgba(62, 68, 77, 0.726);
+    font-weight: 200;
+    color: white;
+    font-family: 'Garamond';
+}
+
+.twenties-mission-container h2{
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Garamond';
 }
 
 .twenties-mission-container img{
-    border: 1px solid white;
-    width: 30vw;
+    border: 1px solid rgb(255, 255, 255);
+    max-width: 30vw;
+    max-height: 40vh;
 }
 
 .twenties-mission-desc{
-    color: rgb(50, 56, 68);
+    color: white;
+    font-weight: 200;
+    font-size: 1.25rem;
     width: 30vw;
     text-align: justify;
+}
+
+.twenties-upcoming-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: start;
+    margin: 1rem 5rem;
 }
 
 /* Sources */
