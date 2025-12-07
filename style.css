@@ -279,7 +279,7 @@ p{
 
 /* 60s Sepia Newsprint */
 .sixties-title{
-    background-image: url(images/60s/parch.jpg);
+    background-image: url(https://64.media.tumblr.com/12d5042a8243eeb78ff1c78cdf193857/814090958133a093-6a/s2048x3072/6c7e71109226e266094ee2af92ed67baa64ba75c.pnj);
     color: black;
     width: 100%;
     max-width: 60vw;
@@ -288,6 +288,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 .rm-space{
@@ -296,18 +297,26 @@ p{
 }
 
 .sixties-title-divider{
-    width: 90%;
+    width: 80%;
     border: 2px solid black;
 }
 
 .sixties-container{
     border: 2px solid black;
-    background-image: url(images/60s/parch.jpg);
+    background-image: url(https://64.media.tumblr.com/12d5042a8243eeb78ff1c78cdf193857/814090958133a093-6a/s2048x3072/6c7e71109226e266094ee2af92ed67baa64ba75c.pnj);
     color: black;
     width: 100%;
     max-width: 60vw;
     display: flex;
     flex-direction: row;
+}
+
+.sixties-overview{
+    padding: 0px 10vw;
+}
+
+.sixties-overview p{
+    font-family:'Times New Roman', Times, serif;
 }
 
 .sixties-col{
@@ -338,7 +347,6 @@ p{
 
 .sixties-article p{
     font-size: 1.15rem;
-    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -423,9 +431,7 @@ p{
 }
 
 .mission-buttons button:hover{
-    background-color: black;
-    border-color: yellow;
-    color: yellow;
+    border-color: white;
 }
 
 .btn-1{
@@ -539,7 +545,7 @@ p{
 }
 
 .mission-items-90s{
-    background-image: url(images/90s/90s-tech-bkg.png);
+    background-image: url(https://64.media.tumblr.com/bdb77c91c452254a99c707bf4bc70de0/09ee614a286b8357-ac/s2048x3072/ef9fb557a478d100c7654ae7b8781d08d18811ad.pnj);
     background-position: center;
     object-fit: contain;
     display: flex;
